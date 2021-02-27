@@ -1,0 +1,20 @@
+/Testy$ robot test2.robot 
+==============================================================================
+Test2                                                                         
+==============================================================================
+test pierwszy                                                         udalo Ci sie puscic pierwszy test
+test pierwszy                                                         | PASS |
+------------------------------------------------------------------------------
+test drugi odwolujacy sie do zmiennej                                 to jest drugi update testu pokazujacy odwolanie sie do zmiennej
+test drugi odwolujacy sie do zmiennej                                 | PASS |
+------------------------------------------------------------------------------
+test trzeci pokazuje odwolanie sie do parametru                       test3 dotyczacy keywords
+test trzeci pokazuje odwolanie sie do parametru                       | PASS |
+------------------------------------------------------------------------------
+Test2                                                                 | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Output:  /home/student/Testy/output.xml
+Log:     /home/student/Testy/log.html
+Report:  /home/student/Testy/report.html
