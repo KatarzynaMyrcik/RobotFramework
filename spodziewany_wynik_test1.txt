@@ -1,0 +1,14 @@
+~/testy/Testy$ robot test1.robot 
+==============================================================================
+Test1                                                                         
+==============================================================================
+logowanie sie na konsole. pierwszy test                               pierwszy test
+logowanie sie na konsole. pierwszy test                               | PASS |
+------------------------------------------------------------------------------
+Test1                                                                 | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  /home/student/testy/Testy/output.xml
+Log:     /home/student/testy/Testy/log.html
+Report:  /home/student/testy/Testy/report.html
