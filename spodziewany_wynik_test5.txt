@@ -1,0 +1,26 @@
+(RFtesty) student@TesterVM-20:~/RFtesty/RFtesty$ robot testy.robot 
+==============================================================================
+Testy                                                                         
+==============================================================================
+test pierwszy                                                         udalo CI sie puscic pierwszy test
+test pierwszy                                                         | PASS |
+------------------------------------------------------------------------------
+test drugi odwoluje sie do zmiennej                                   to jest drugi test pokazujacy odwolanie sie do zmiennej
+test drugi odwoluje sie do zmiennej                                   | PASS |
+------------------------------------------------------------------------------
+test trzeci odwolujacy sie do parametru                               test3 dotyczacy keywords
+test trzeci odwolujacy sie do parametru                               | PASS |
+------------------------------------------------------------------------------
+test czwarty wykorzystujacy skrypt pytona                             | PASS |
+------------------------------------------------------------------------------
+test piaty odwolujacy sie do funkcji w pythonie odwracajacej stringi  | PASS |
+------------------------------------------------------------------------------
+test sprawdzajacy poprawnosc komendy na komputerze lokalnym           | PASS |
+------------------------------------------------------------------------------
+Testy                                                                 | PASS |
+6 critical tests, 6 passed, 0 failed
+6 tests total, 6 passed, 0 failed
+==============================================================================
+Output:  /home/student/RFtesty/RFtesty/output.xml
+Log:     /home/student/RFtesty/RFtesty/log.html
+Report:  /home/student/RFtesty/RFtesty/report.html
