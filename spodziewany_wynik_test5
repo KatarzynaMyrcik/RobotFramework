@@ -1,0 +1,24 @@
+robot testy_robot.robot 
+==============================================================================
+Testy Robot                                                                   
+==============================================================================
+test pierwszy                                                         udalo CI sie puscic pierwszy test
+test pierwszy                                                         | PASS |
+------------------------------------------------------------------------------
+test drugi odwoluje sie do zmiennej                                   to jest drugi test pokazujacy odwolanie sie do zmiennej
+test drugi odwoluje sie do zmiennej                                   | PASS |
+------------------------------------------------------------------------------
+test trzeci odwolujacy sie do parametru                               test3 dotyczacy keywords
+test trzeci odwolujacy sie do parametru                               | PASS |
+------------------------------------------------------------------------------
+test czwarty wykorzystujacy skrypt pytona                             | PASS |
+------------------------------------------------------------------------------
+test piaty odwolujacy sie do funkcji w pythonie odwracajacej stringi  | PASS |
+------------------------------------------------------------------------------
+Testy Robot                                                           | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Output:  /home/student/Testy/output.xml
+Log:     /home/student/Testy/log.html
+Report:  /home/student/Testy/report.html
