@@ -1,0 +1,24 @@
+*** Settings ***
+Library   dodawanie.py
+
+*** Variables ***
+${WIADOMOSC}   to jest drugi test pokazujacy odwolanie sie do zmiennej
+
+*** Test Cases ***
+test pierwszy
+   Log to console   udalo CI sie puscic pierwszy test
+
+test drugi odwoluje sie do zmiennej
+   lOG TO CONSOLE   ${WIADOMOSC}
+
+test trzeci odwolujacy sie do parametru
+   komunikat   test3 dotyczacy keywords
+
+test czwarty wykorzystujacy skrypt pytona
+   ${rezultat} =   dodawanie   Cho  mik
+   Should Be Equal   ${rezultat}   Chomik
+
+*** Keywords ***
+komunikat
+   [ARGUMENTS]   ${KOMUNIKAT}
+   Log to console   ${KOMUNIKAT}
